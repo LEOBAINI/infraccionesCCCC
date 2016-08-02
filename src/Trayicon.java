@@ -41,13 +41,18 @@ public class Trayicon {
         //Add components to popup menu
         popup.add(aboutItem);
         popup.addSeparator();
-        popup.add(cb1);
-        popup.add(cb2);
         popup.addSeparator();
-        popup.add(displayMenu);
-        displayMenu.add(errorItem);
-        displayMenu.add(warningItem);
-        displayMenu.add(infoItem);
+        popup.addSeparator();
+        popup.add(infoItem);
+        //popup.add(cb1);
+       // popup.add(cb2);
+        popup.addSeparator();
+        popup.addSeparator();
+        popup.addSeparator();
+      //  popup.add(displayMenu);
+     //   displayMenu.add(errorItem);
+     //   displayMenu.add(warningItem);
+     //   displayMenu.add(infoItem);
      //   displayMenu.add(noneItem);
         popup.add(exitItem);
         
@@ -64,14 +69,14 @@ public class Trayicon {
         trayIcon.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(null,
-                        "This dialog box is run from System Tray");
+                        "En éstos momentoes estoy trabajando");
             }
         });
         
         aboutItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(null,
-                        "This dialog box is run from the About menu item");
+               "Desarrollado por Leonardo Baini, uso exclusivo de Campo Chico Country Club");
             }
         });
         

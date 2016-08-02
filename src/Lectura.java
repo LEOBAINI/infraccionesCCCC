@@ -21,7 +21,7 @@ public class Lectura {
 		System.out.println("FotoId->"+datosLinea.get(5));
 		System.out.println("Nombre-Foto->"+datosLinea.get(9));
 		System.out.println("-------------------------------------------------------");
-		JOptionPane.showMessageDialog(null, "Datos creados");
+		
 	}
 	
 	
@@ -78,6 +78,7 @@ public class Lectura {
 				}
 			
 					System.out.println("Registros->"+contador);
+					JOptionPane.showMessageDialog(null, "Datos creados");
 				
 				
 			} catch (IOException e) {
