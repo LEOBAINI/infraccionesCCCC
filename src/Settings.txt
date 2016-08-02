@@ -1,0 +1,31 @@
+###############################################################################################################################
+#Settings, el # comenta la línea, es decir toda linea que se comenta con #, no se lee en el programa
+#Escribir los valores de los siguientes parámetros.
+#
+#RutaInput=C:\\PRUEBASDIR 
+#RutaOutput=C:\\PRUEBASDIR2
+#TiempoInactividad=30
+#
+# Ejemplo de como colocar los parámetros, es importante seguir el orden.
+#
+#C:\\PRUEBASDIR
+#C:\\PRUEBASDIR2
+#30
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+###############################################################################################################################
+#Acá debajo, van los parámetros.#
+#################################
+C:\\PRUEBASDIR
+C:\\PRUEBASDIR2
+3
