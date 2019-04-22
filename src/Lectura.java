@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 
-public class Lectura {
+public class Lectura {// Probando cambios por branch prueba;
 
 	public static void imprimir(ArrayList<String>datosLinea){
 		System.out.println("Patente->"+datosLinea.get(0));
@@ -47,7 +47,7 @@ public class Lectura {
 			
 			try {
 				while ((sCadena = bf.readLine())!=null) {
-					if(sCadena.contains(",")&& !sCadena.contains("Patente")) {  //Limpio titulos y me aseguro que la primer patente quede en la posición correcta
+					if(sCadena.contains(",")&& !sCadena.contains("Patente")) {  //Limpio titulos y me aseguro que la primer patente quede en la posiciÃ³n correcta
 					auxCadena=sCadena.replaceAll("\"", "");/*quitamos todas las comillas*/
 					contador++;// solo sirve para ver si la cant de registros coincide
 					int posComa=0;
